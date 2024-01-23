@@ -2,7 +2,7 @@ import { SearchBar } from "./SearchBar";
 
 export function AppBar(){
     return <div className="flex justify-between p-5 ">
-        <div >Youtube</div>
+        <div className="mt-1" >Youtube</div>
         <div >   
         <SearchBar></SearchBar>
         </div>
