@@ -12,7 +12,7 @@ export default function Home() {
       
       <AppBar></AppBar>
       <VideoGrid></VideoGrid>
-
+      <h1 className="flex justify-center p-2 border-t border-gray-500">Made with ❤ By  Krishna</h1>
     </div>
    );
 }
