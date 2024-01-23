@@ -1,7 +1,7 @@
 export const SearchBar = () => {
   return (
     <div>
-      <div className="w-full md:w-96 flex text-gray-900 border border-gray-500 rounded-3xl p-1 pl-3 text-sm pr-2 mx-auto">
+      <div className="max-sm:hidden block w-full md:w-96 flex text-gray-900 border border-gray-500 rounded-3xl p-1 pl-3 text-sm pr-2 mx-auto">
         <input
           id="default-search"
           className="w-full text-black border-none outline-none "
