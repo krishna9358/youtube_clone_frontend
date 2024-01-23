@@ -6,14 +6,14 @@ export  function VideoCard(props:any){
                 <img className="rounded-full  w-12 h-12 lg:w-10 lg:h-10" src={props.channel} alt="a"  />
             </div>
             <div className="col-span-11 ml-1 "> 
-                <div className="text-lg">
+                <div className="text-base">
                 {props.title}
                 </div>
             <div className="col-span-11 text-gray-600 text-sm"> 
                {props.author}
             </div>
             <div className="col-span-11  text-gray-600 text-sm"> 
-               {props.views} | {props.timestamp}
+               {props.views} • {props.timestamp}
             </div>
                 
             </div>
